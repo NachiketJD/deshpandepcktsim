@@ -1,0 +1,9 @@
+# Nodes
+R1 OSPF
+R2 RIP
+R3 EIGRP
+
+# Links
+R1 R2 10 100
+R2 R3 20 100
+R1 R3 50 50
