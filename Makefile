@@ -2,7 +2,9 @@
 
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-SRC = src/main.cpp src/topology.cpp src/node.cpp
+SRCS = src/main.cpp src/ospf.cpp src/rip.cpp src/eigrp.cpp src/bgp.cpp
+INCLUDES = -Iinclude
+
 OUT = deshpandepcktsim.exe
 
 all: $(OUT)
